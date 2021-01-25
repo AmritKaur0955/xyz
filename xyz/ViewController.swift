@@ -16,6 +16,7 @@ class ViewController: UIViewController {
         mapView.delegate = self
         let coordinates = CLLocationCoordinate2D(latitude: 43.7315, longitude: -79.7624)
         setRegion(coordinates: coordinates)
+        //d
        // setPin(coordinates: coordinates)
         
         let tap = UITapGestureRecognizer(target: self, action: #selector(handleTap(touch:)))
